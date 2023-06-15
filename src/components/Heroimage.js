@@ -29,8 +29,11 @@ const Heroimage = () => {
                    ]}
                    /></h1>
         <div>
-            <Link to="/project" className="btn">Projects</Link>
-            <Link to="/contact" className="btn-light">Contact</Link>
+           {/* <Link to="/project" className="btn">Projects</Link> */}
+            <a href='resume.pdf' download='Gomathy resume.pdf' >
+                <button className='btn'>Get Resume</button>
+            </a>
+            <Link to="/contact" className="btn-light">Hire Me</Link>
         </div>
         
       </div>
