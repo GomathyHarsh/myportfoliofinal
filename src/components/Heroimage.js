@@ -1,5 +1,5 @@
 import "./HeroimageStyle.css";
-import Typical from 'react-typical'
+
 
 import React from 'react'
 import { Link } from "react-router-dom";
@@ -19,15 +19,8 @@ const Heroimage = () => {
             </div>
 
         <p>HI, I'M Gomathy</p>
-        <h1> <Typical
-                   loop={Infinity}
-                   steps={[
-                    "Full Stack Developer ",
-                    1000,
-                    "MERN Stack Developer",
-                    1000
-                   ]}
-                   /></h1>
+        <h3> 
+          Full Stack Developer</h3>
         <div>
            {/* <Link to="/project" className="btn">Projects</Link> */}
             <a href='resume.pdf' download='Gomathy resume.pdf' >
