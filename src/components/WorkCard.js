@@ -12,10 +12,9 @@ const WorkCard = (props) => {
     <div className="pro-details">
       <p>{props.text}</p>
       <div className="pro-btns">
-        <a href={props.view} target="_blank" rel="noreferrer" className="btn" >View</a>
-     
-      
-        
+        <a href={props.frontend} target="_blank" rel="noreferrer" className="btn" >Frontend</a>
+        <a href={props.live} target="_blank" rel="noreferrer" className="btn" >Live</a>
+        <a href={props.backend} target="_blank" rel="noreferrer" className="btn" >Backend</a>
       </div>
     </div>
 </div>
