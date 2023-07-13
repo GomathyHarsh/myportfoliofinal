@@ -10,7 +10,8 @@ const Project = () => {
   return (
     <div>
       <Navbar/>
-      <HeroImg2 heading="PROJECTS" text="username: user123@gmail.com   Password: User123$" />
+      <HeroImg2 heading="PROJECTS"  text="Username: user1@gmail.com  and   Password: User1$" 
+      text1="Username: user2@gmail.com  and   Password: User2$"/>
       <Work/>
       <Footer/>
       

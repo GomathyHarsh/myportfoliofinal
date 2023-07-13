@@ -30,8 +30,9 @@
     font-size: 2.4rem;
 }
 .hero-img p{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     text-align: center;
+    color:chocolate;
 }
 
 @media screen and (max-width: 640px) {
