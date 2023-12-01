@@ -11,7 +11,7 @@ const Project = () => {
     <div>
       <Navbar/>
       <HeroImg2 heading="PROJECTS"  text="Username: user1@gmail.com  and   Password: User1$" 
-      text1="Username: user2@gmail.com  and   Password: User2$"/>
+       text1="Admin: admin123@gmail.com  and   Password:Admin123"/>
       <Work/>
       <Footer/>
       
