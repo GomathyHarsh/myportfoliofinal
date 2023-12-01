@@ -23,7 +23,7 @@ const Heroimage = () => {
           Full Stack Developer</h3>
         <div>
            {/* <Link to="/project" className="btn">Projects</Link> */}
-            <a href='resume.pdf' download='Gomathy resume.pdf' >
+            <a href='https://drive.google.com/file/d/1J6jq3E9JKCbVv9XO44Ghx8_4_feTMWAO/view?usp=drivesdk' target="_blank">
                 <button className='btn'>Get Resume</button>
             </a>
             <Link to="/contact" className="btn-light">Hire Me</Link>
